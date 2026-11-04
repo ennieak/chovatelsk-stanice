@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333333;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 30px;
+    border: 1px solid #cccccc;
+}
+
+.uvod {
+    background-color: #e9ecef;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-left: 5px solid #b20088;
+}
+
+.uvod h1 {
+    margin-top: 0;
+    color: #b20088;
+}
+
+.uvod ul {
+    margin-bottom: 0;
+}
+
+h2 {
+    color: #b20088;
+    border-bottom: 2px solid #b20088;
+    padding-bottom: 5px;
+    margin-top: 40px;
+}
+
+.karta-zvirete {
+    display: flex;
+    border: 1px solid #dddddd;
+    margin-bottom: 20px;
+    background-color: #fafafa;
+}
+
+.foto-box {
+    width: 250px;
+    min-width: 250px;
+    background-color: #e2e8f0;
+    border-right: 1px solid #dddddd;
+    overflow: hidden;
+}
+
+.foto-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+
+.info-box {
+    padding: 15px;
+    flex-grow: 1;
+}
+
+.info-box h3 {
+    margin-top: 0;
+    color: #222222;
+}
+
+.info-box p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.tlacitko {
+    display: inline-block;
+    background-color: #b20088;
+    color: white;
+    padding: 6px 12px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 13px;
+    margin-top: 8px;
+}
+
+.tlacitko:hover {
+    background-color: #b20088;
+}
+
+.mini-galerie {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+
+.galerie .fotka {
+    width: 130px;
+    height: 90px;
+    background-color: #e2e8f0;
+    border: 1px solid #cccccc;
+    overflow: hidden;
+}
+
+.galerie .fotka img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
